@@ -1,7 +1,6 @@
-مشروع محرر بايثون AI — ملفات المشروع وطريقة البناء
 
-1) بنية المشروع المطلوبة على GitHub
-
+kivy
+pygments
 pyeditor/
 ├── main.py
 ├── libraries.json
