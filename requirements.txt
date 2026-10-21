@@ -9,11 +9,6 @@ pyeditor/
     └── workflows/
         └── build.yml
 
-مهم:
-- يجب أن يكون main.py هو ملف التطبيق الفعلي، وليس سكريبتًا ينشئ main.py داخل مسار خاص ببيئة أخرى.
-- يجب أن يكون buildozer.spec بجوار main.py.
-- لا يحتاج Buildozer إلى requirements.txt في هذا الإعداد؛ متطلبات التطبيق محددة في buildozer.spec.
-- libraries.json هو قائمة أسماء مكتبات للبحث والعرض داخل التطبيق، ولا يعني أن هذه المكتبات مثبتة كلها أو أنها كلها متوافقة مع أندرويد.
 
 2) محتوى buildozer.spec
 
@@ -134,4 +129,3 @@ python generate_libraries.py
 
 افتح تفاصيل المهمة في Actions، وانسخ أول رسالة ERROR أو Traceback مع نحو 20 سطرًا قبلها. لا ترسل سطر exit code 1 وحده؛ فهو يوضح أن المهمة فشلت ولا يوضح السبب.
 
-نهاية الملف.
